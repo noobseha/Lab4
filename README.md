@@ -33,7 +33,7 @@ CLI(Command Line Interface)로 작동되나, GUI(Graphical User Interface) 형�
 
 4. clear : 기존 입력한 모든 내용을 정리해줌 (시각적으로)
 ---
-**조심해서 사용해야할 명령어**
+**조심해서 사용해야할 명령어**   
 5.  cp : 파일을 복사하는 명령어 
 - cp 명령어 형식 : cp file1 file2 -> file1의 컨텐츠를 file2로 복사하는 것.
 - cp file1 dir1 : file1의 콘텐츠를 dir1으로 복사(기존 이름과 같음)
