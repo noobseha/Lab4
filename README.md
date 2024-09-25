@@ -9,8 +9,8 @@ CLI(Command Line Interface)로 작동되나, GUI(Graphical User Interface) 형�
 ---
 ###Kernal and Shell
 
-커널 : 하드웨어 리소스를 사용할 수 있게 해주는 연결고리 역할
-쉘 : 커널과 소통할 수 있게 해주는 인터페이스
+커널 : 하드웨어 리소스를 사용할 수 있게 해주는 연결고리 역할   
+쉘 : 커널과 소통할 수 있게 해주는 인터페이스   
 
 ---
 ###shell commands
@@ -27,9 +27,9 @@ CLI(Command Line Interface)로 작동되나, GUI(Graphical User Interface) 형�
    - ls /bin : /bin 디렉토리를 보여주는 명령어
    - ls -la .. : .으로 시작하는 히든 파일도 보여주는 명령어
 
-**long format** : File Permissions + Owner + Group + Size + Modification Time + File Name
-\* 자동 완성 기능 : 폴더 명의 초반 부분만 입력 후 Tab 키를 입력하면 자동 완성 기능으로 손쉽게 폴더 명을 입력 가능.
-\* 최근 명령어 : 화살표 위 버튼 입력 시 최근 입력한 명령어를 확인 가능
+**long format** : File Permissions + Owner + Group + Size + Modification Time + File Name   
+\* 자동 완성 기능 : 폴더 명의 초반 부분만 입력 후 Tab 키를 입력하면 자동 완성 기능으로 손쉽게 폴더 명을 입력 가능.   
+\* 최근 명령어 : 화살표 위 버튼 입력 시 최근 입력한 명령어를 확인 가능   
 
 4. clear : 기존 입력한 모든 내용을 정리해줌 (시각적으로)
 ---
@@ -43,11 +43,11 @@ CLI(Command Line Interface)로 작동되나, GUI(Graphical User Interface) 형�
 7. rm : 파일을 영구적으로 제거하는 명령어 (**조심해서 사용해야함**)
 8. mkdir : 새로운 디렉토리를 생성하는 명령어
 
-Wildcards
-\* : 모든 파일명
-g\* : g로 시작하는 모든 파일명
-b*.txt : b로 시작해서 .txt로 끝나는 모든 파일명
-DATA??? : 물음표의 수만큼의 문자만 가능
+Wildcards   
+\* : 모든 파일명   
+g\* : g로 시작하는 모든 파일명   
+b*.txt : b로 시작해서 .txt로 끝나는 모든 파일명   
+DATA??? : 물음표의 수만큼의 문자만 가능   
 
 9. help : 해당 명령어의 도움말
 10. exit : 터미널을 나감
